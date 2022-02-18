@@ -6,3 +6,5 @@ checkpoints/
 *.jpg
 venv/
 .idea/
+results
+wandb
