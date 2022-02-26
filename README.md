@@ -7,4 +7,6 @@ CUDA_VISIBLE_DEVICES="0,1" nohup python3.7 train.py --amp --batch-size 4 --epoch
 
 python3.7 predict_daedalus.py --output ./results --model checkpoints/checkpoint_epoch1.pth
 # in the results folder there are images
+
+python3.7 test_deaedalus_fiftyone.py
 ```
